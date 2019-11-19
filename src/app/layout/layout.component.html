@@ -1,0 +1,6 @@
+<!-- <app-nav></app-nav> -->
+<app-topnav (click)="slidebar()"></app-topnav>
+<app-sidebar *ngIf="isOpenSlider"></app-sidebar>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
